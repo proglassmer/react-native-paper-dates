@@ -281,7 +281,7 @@ function Month(props: MonthSingleProps | MonthRangeProps | MonthMultiProps) {
               style={[styles.monthLabel, theme.fonts.medium]}
               selectable={false}
             >
-              {monthName} {year}
+              {monthName} {year + 543}
             </Text>
             <View style={isHorizontal ? styles.opacity1 : styles.opacity0}>
               <IconButton
